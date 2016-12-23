@@ -1,4 +1,4 @@
-$.getScript("https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCqRt3B_pKGbkTBK_1f24qM2KewweBmAw4&callback=MapApiLoaded", function () {});
+$.getScript("https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCqRt3B_pKGbkTBK_1f24qM2KewweBmAw4&async=2&callback=MapApiLoaded", function () {});
 function MapApiLoaded() {
 $(document).ready(function() {
     /** Google Map **/
