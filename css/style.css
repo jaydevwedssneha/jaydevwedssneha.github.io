@@ -1148,6 +1148,9 @@ section#timer{
     .counter-block .counter-caption {
         font-size: 70%;
     }
+    .mobile{
+        margin-top:30px;
+    }
 }
 
 /*** 
