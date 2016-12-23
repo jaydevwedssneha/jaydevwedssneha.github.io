@@ -1,3 +1,5 @@
+$.getScript("https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCqRt3B_pKGbkTBK_1f24qM2KewweBmAw4&callback=MapApiLoaded", function () {});
+function MapApiLoaded() {
 $(document).ready(function() {
     /** Google Map **/
     function init_map() {
@@ -27,3 +29,4 @@ $(document).ready(function() {
     }
     google.maps.event.addDomListener(window, 'load', init_map);
 });
+}
