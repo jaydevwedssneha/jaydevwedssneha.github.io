@@ -189,7 +189,5 @@ $("#togglePlay").on("click", function() {
 });
 
 $(window).load(function() {
-    if ($(window).width() >= 1024) {
         $("#togglePlay").trigger("click");
-    }
 });
