@@ -44,7 +44,7 @@
                         'overflow': 'visible'
                     });
         }
-        setTimeout(explode, 5000);
+        setTimeout(explode, 9000);
 
         // $(window).load(function() { // makes sure the whole site is loaded
             
