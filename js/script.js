@@ -188,6 +188,3 @@ $("#togglePlay").on("click", function() {
     $(this).toggleClass('active');
 });
 
-$(window).load(function() {
-        $("#togglePlay").trigger("click");
-});

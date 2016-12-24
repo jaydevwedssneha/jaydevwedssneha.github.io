@@ -39,12 +39,13 @@
 
         function explode(){
                     $('#loadercontent').fadeOut(); // will first fade out the loading animation
-                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-                    $('body').delay(350).css({
+                    $('#pageloader').delay(300).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                    $('body').delay(300).css({
                         'overflow': 'visible'
                     });
+                    $("#togglePlay").delay(300).trigger("click");
         }
-        setTimeout(explode, 9000);
+        setTimeout(explode, 5000);
 
         // $(window).load(function() { // makes sure the whole site is loaded
             
