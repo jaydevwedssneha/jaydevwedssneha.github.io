@@ -36,12 +36,18 @@
             }
 
         }
-        $(window).load(function() { // makes sure the whole site is loaded
-            $('#loadercontent').fadeOut(); // will first fade out the loading animation
-            $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(350).css({
-                'overflow': 'visible'
-            });    
-        });
+
+        function explode(){
+                    $('#loadercontent').fadeOut(); // will first fade out the loading animation
+                    $('#pageloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+                    $('body').delay(350).css({
+                        'overflow': 'visible'
+                    });
+        }
+        setTimeout(explode, 5000);
+
+        // $(window).load(function() { // makes sure the whole site is loaded
+            
+        // });
 }(jQuery));
 
