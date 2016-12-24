@@ -43,7 +43,7 @@
                     $('body').delay(300).css({
                         'overflow': 'visible'
                     });
-                    $("#togglePlay").delay(300).trigger("click");
+               $("#togglePlay").delay(400).trigger("click");     
         }
         setTimeout(explode, 4000);
 
