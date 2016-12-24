@@ -43,9 +43,8 @@
                     $('body').delay(300).css({
                         'overflow': 'visible'
                     });
-               $("#togglePlay").delay(400).trigger("click");     
         }
-        setTimeout(explode, 4000);
+        setTimeout(explode, 5000);
 
         // $(window).load(function() { // makes sure the whole site is loaded
             

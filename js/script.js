@@ -187,4 +187,6 @@ $("#togglePlay").on("click", function() {
     togglePlay();
     $(this).toggleClass('active');
 });
-
+setTimeout(function() {
+    $("#togglePlay").trigger("click");         
+}, 4000);
