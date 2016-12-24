@@ -1,6 +1,6 @@
 $.getScript("https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&region=in&key=AIzaSyCqRt3B_pKGbkTBK_1f24qM2KewweBmAw4&async=2&callback=MapApiLoaded", function () {});
 function MapApiLoaded() {
-$(document).ready(function() {
+//$(document).ready(function() {
     /** Google Map **/
     function init_map() {
         var locations = [
@@ -28,5 +28,5 @@ $(document).ready(function() {
 
     }
     google.maps.event.addDomListener(window, 'load', init_map);
-});
+//});
 }
