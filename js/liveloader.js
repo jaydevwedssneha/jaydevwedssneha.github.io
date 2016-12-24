@@ -45,7 +45,7 @@
                     });
                     $("#togglePlay").delay(300).trigger("click");
         }
-        setTimeout(explode, 5000);
+        setTimeout(explode, 3000);
 
         // $(window).load(function() { // makes sure the whole site is loaded
             
